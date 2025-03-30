@@ -212,14 +212,14 @@ document.querySelector('.k18').innerHTML="ئێسپریسۆ فرابی";
   document.querySelector('.k125').innerHTML="هنار";
   document.querySelector('.k126').innerHTML="فڕەوڵە";  
 
-  document.querySelector('.itemtitle11').innerHTML="جاي";
+  document.querySelector('.itemtitle11').innerHTML="جا";
   document.querySelector('.item11').style.width='110px';
   document.querySelector('.itemtitle11').style.fontWeight=500;
   document.querySelector('.itemtitle11').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p19').innerHTML="جاي";
-  document.querySelector('.k128').innerHTML="جاي";
-  document.querySelector('.k129').innerHTML="حاي اخضر";
-  document.querySelector('.k135').innerHTML="كاراك جاي";
+  document.querySelector('.div1p19').innerHTML="جا";
+  document.querySelector('.k128').innerHTML="جا";
+  document.querySelector('.k129').innerHTML="جا كه سك";
+  document.querySelector('.k135').innerHTML="كاراك حا";
 
   document.querySelector('.itemtitle12').innerHTML="لسەر کاڤيرنا";
   document.querySelector('.item12').style.width='120px';
@@ -405,14 +405,14 @@ butara.addEventListener('click', () => {
   document.querySelector('.k126').innerHTML="فراوله";
 
 
-  document.querySelector('.itemtitle11').innerHTML="جاي";
+  document.querySelector('.itemtitle11').innerHTML="شاي";
   document.querySelector('.item11').style.width='110px';
   document.querySelector('.itemtitle11').style.fontWeight=500;
   document.querySelector('.itemtitle11').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p19').innerHTML="جاي";
-  document.querySelector('.k128').innerHTML="جاي";
-  document.querySelector('.k129').innerHTML="حاي اخضر";
-  document.querySelector('.k135').innerHTML="كاراك جاي";
+  document.querySelector('.div1p19').innerHTML="شاي";
+  document.querySelector('.k128').innerHTML="شاي";
+  document.querySelector('.k129').innerHTML="شاي اخضر";
+  document.querySelector('.k135').innerHTML="كاراك شاي";
 
   document.querySelector('.itemtitle12').innerHTML="عن كافيرنا";
   document.querySelector('.item12').style.width='115px';
