@@ -212,14 +212,14 @@ document.querySelector('.k18').innerHTML="ئێسپریسۆ فرابی";
   document.querySelector('.k125').innerHTML="هنار";
   document.querySelector('.k126').innerHTML="فڕەوڵە";  
 
-  document.querySelector('.itemtitle11').innerHTML="جا";
+   document.querySelector('.itemtitle11').innerHTML="چا";
   document.querySelector('.item11').style.width='110px';
   document.querySelector('.itemtitle11').style.fontWeight=500;
   document.querySelector('.itemtitle11').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p19').innerHTML="جا";
-  document.querySelector('.k128').innerHTML="جا";
-  document.querySelector('.k129').innerHTML="جا كه سك";
-  document.querySelector('.k135').innerHTML="كاراك حا";
+  document.querySelector('.div1p19').innerHTML="چا";
+  document.querySelector('.k128').innerHTML="چا";
+  document.querySelector('.k129').innerHTML="چا  كه سك";
+  document.querySelector('.k135').innerHTML="كاراك چا";
 
   document.querySelector('.itemtitle12').innerHTML="لسەر کاڤيرنا";
   document.querySelector('.item12').style.width='120px';
