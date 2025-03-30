@@ -1,0 +1,388 @@
+body{
+    
+    background-color: #2a1e12;
+    margin-top: 85px;
+    font-family: "Roboto", serif;
+}
+
+.chbut{
+
+ border-radius: 20px;
+ width: 40px;
+ height: 40px;
+ border: none;
+ background-color: transparent;
+ transition: background-color 0.3s;
+}
+.ch2fr{
+    margin-bottom: 170px;
+}
+.chbut:hover{
+    background-color: rgb(216, 216, 216);
+}
+.chbut:active{
+    background-color: rgb(172, 172, 172);
+}
+
+.chimg{
+    width: 20px;
+}
+
+.divp1out{
+    background-color: transparent;
+    margin: 0 auto 50px auto;
+    row-gap: 50px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+.div1p{
+    font-size: 20px;
+    margin: 0 11px 40px 20px;
+    text-align: left;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+
+}
+
+.div1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+
+}
+
+.div1 .b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2a1e12;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.div1 .b .b-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.bmm1{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+.bmm2{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 0 0 15px;
+}
+.pburg{
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    height: 20px;
+}
+.ppriceb{
+    font-size: 13px;
+    color: rgb(147, 147, 147);
+    margin-bottom: 25px;
+}
+.bmm2 button{
+    width: 80%;
+    height: 30px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 7%;
+}
+
+
+
+
+
+.divp1outm{
+    background-color: white;
+    margin: 0 auto 50px auto;
+    row-gap: 50px;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+.div1m{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+   
+}
+.div1m .bm{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    column-gap: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+    min-height: 200px;
+}
+
+.bmm1m{
+height: 100%;
+}
+
+.bmm2m{
+
+}
+.bmm1m button{
+    width: 90%;
+    height: 30px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: -100px;
+    margin-left: 7%;
+}
+.pburgm{
+    font-size: 18px;
+    color: rgb(60, 60, 60);
+    font-weight: 600;
+    margin: 0;
+    margin: 10% 0 5% 10%;
+
+}
+.pdescm{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin: 0 0 25% 10%;
+    height: 20px;
+}
+.ppricebm{
+    font-size: 15px;
+    color: rgb(0, 51, 182);
+    margin: 0 0 5% 10%;
+}
+.ch1fr{
+    display: none;
+}
+
+.cart-bar{
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background-color: #2a1e12;
+    border-top: 1px solid rgb(81, 71, 71);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    
+}
+
+.img-cart{
+    width: 27px;
+    
+}
+.cart-bag-num{
+    display: flex;
+    align-items: center;
+}
+.but-cart{
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px black;
+    border: none;
+    background-color: #3b2a30;
+    font-size: 14px;
+    font-weight: 550;
+    color: white;
+    cursor: pointer;
+}
+.cart-img{
+    margin-right: 10px;
+}
+.cart-num , .cart-bar p{
+    font-size: 17px;
+    margin-right: 5px;
+    color: white;
+}
+
+@media (min-width:1120px){
+   
+    .divp1out{
+        width: 70%;
+    }
+    .divp1outm{
+        width: 70%;
+    }
+
+}
+
+@media (min-width:720px) and (max-width:1119px){
+    .divp1out{
+        width: 80%;
+    }
+    .divp1outm{
+        width: 80%;
+    }
+}
+
+/**/
+
+.dmdiv3{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+    margin-bottom: 150px;
+}
+.dmdiv3 .dmdiv3img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    opacity: 0.9;
+}
+.dmdiv3 .dmdiv3imgdiv{
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 100%;
+}
+.dmdiv3 .dmdiv3textdiv{
+    width: 100%;
+    padding: 0 0 50px 0;
+}
+.dmdiv3 .smiletitle{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 30px;
+}
+.dmdiv3 .dmdiv3divdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+.dmdiv3 .dmdiv3divdiv div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dmdiv3 .dmdiv3divdiv div img{
+    width: 30%;
+    opacity: 0.4;
+}
+
+.dmdiv3 .dmdiv3divdiv div .smiletext{
+    color: rgb(237, 237, 237);
+    font-size: 15px;
+}
+.dmdiv3 .dmdiv3divdiv div .smilepic1{
+    width: 28%;
+
+}
+.dmdiv3 .dmdiv3divdiv div .smilepic3{
+    width: 37%;
+
+}
+.dmdiv3 .dmdiv3divdiv div .smilepic4{
+    width: 30%;
+
+}
+.dmdiv3 .dmdiv3divdiv div .smilepic5{
+    width: 48%;
+    opacity: 0.55;
+}
+.dmdiv3 .dmdiv3divdiv div .smilepic6{
+    width: 40%;
+
+}
+.dmdiv3 .dmdiv3divdiv div .smilepic7{
+    width: 37%;
+  
+}
+.dmdiv3 .dmdiv3divdiv div .smilepic8{
+    width: 38%;
+
+}
+.dmdiv3 .dmdiv3divdiv div .smilepic9{
+    width: 30%;
+
+}
+.dmdiv3 .dmdiv3divdiv div .smilepic10{
+    width: 28%;
+
+}
+.dmdiv3 .dmdiv3divdiv div .smilepic11{
+    width: 40%;
+
+}
+.dmdiv3 .dmdiv3divdiv div .smilepic12{
+    width: 40%;
+  
+}
+
+
+.dmdiv3 .dmdiv3divdiv div p{
+    color: rgb(97, 96, 96);
+    font-size: 15px;
+}
+.dmdiv3 .dmdiv3divdiv .smilepic{
+    filter: brightness(0) invert(1);
+    opacity: 1;
+    
+}
+
+
+@media (max-width:1000px){
+.dmdiv3{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -5%;
+    margin-right: -5%;
+}
+.dmdiv3 .dmdiv3divdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+}
+.dmdiv3{
+    width: 100%;
+}
+.dmdiv3 .dmdiv3img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.dmdiv3 .dmdiv3imgdiv{
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 105%;
+    
+}
+.dmdiv3 .dmdiv3textdiv{
+    width: 105%;
+    padding: 0 0 50px 0;
+}
+}

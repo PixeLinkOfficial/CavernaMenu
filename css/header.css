@@ -1,0 +1,317 @@
+header{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100px;
+    background-color: #2a1e12;;
+    z-index: 1000;
+}
+
+.lfdiv{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 0 20px;
+    z-index: 500000;
+}
+.fdiv button img{
+    width: 23px;
+}
+.fdiv button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    filter: invert(100%) brightness(200%);
+}
+.ldiv select{
+    border: none;
+    font-size: 14px;
+    border-radius: 7px;
+    background-color: white;
+}
+.lflogodiv img{
+    width: 100px;
+    filter: invert(100%) brightness(300%);
+}
+.subheader{
+    text-align: center;
+    margin: 120px auto 15px auto;
+}
+.imgsubheader{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.items {
+    position: relative;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on mobile */
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: grab;
+    height: 70px; /* Fixed height */
+    margin: 0 auto;
+    white-space: nowrap; /* Keep items in one line */
+}
+
+/* Hide the scrollbar in all browsers (Webkit-based & Firefox) */
+.items::-webkit-scrollbar {
+    display: none;
+}
+
+.items {
+    scrollbar-width: none; /* Firefox */
+}
+
+
+.item {
+    display: inline-block;
+    background: transparent;
+    height: 45px;
+    margin: 0 0.3em;
+    width: 140px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    box-sizing: 0px 0px 5px black;
+}
+.itemgrid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px 5px 0 5px;
+}
+.itemimg{
+    width:40px;
+}
+.itemimg img{
+    width: 40px;
+}
+.itemtitle {/* You can adjust this as needed */
+    word-wrap: break-word; /* Ensure long words break and wrap onto the next line */
+    overflow-wrap: break-word; /* Modern property to handle word wrapping */
+    word-break: break-all; /* Break long words at any point */
+    font-size: 17px;
+    color: white;
+}
+.item1{
+    width: 165px;
+}
+.item2{
+    width: 115px;
+}
+.item3{
+    width: 163px;
+}
+.item4{
+    width: 150px;
+}
+.item5{
+    width: 140px;
+}
+.item6{
+    width: 130px;
+}
+.item7{
+    width: 115px;
+}
+.item8{
+    width: 190px;
+}
+.item9{
+    width: 175px;
+}
+.item10{
+    width: 140px;
+}
+.item11{
+    width: 100px;
+}
+.item12{
+    width: 175px;
+}
+
+.a{
+    margin-right: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.b{
+    flex: 1;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+.b2{
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+    height: 28px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+.b2:hover{
+    background-color: rgb(218, 218, 218);
+}
+.p1{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.img3{
+    width: 12px;
+}
+.img1 , .img2{
+    width: 20px;
+}
+
+.rldiv{
+    display: none;
+    background-color: black;
+    position: absolute;
+    bottom: -45px;
+    top: 37px;
+    width: 75px;
+    right: 27px;
+    z-index: 1;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.English ,.arabic ,.kurdish{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    border-radius: 1000px;
+}
+.English{
+    margin-top: 8px;
+    font-size: 13px;
+    padding: 7px 0 7px 0;
+}
+.arabic{
+    font-size: 17px;
+    padding: 3px 0 3px 0;
+}
+.kurdish{
+    font-size: 17px;
+    padding: 3px 0 3px 0;
+}
+.English:hover ,.arabic:hover ,.kurdish:hover{
+    background-color: rgb(58, 58, 58);
+}
+.English:active ,.arabic:active ,.kurdish:active{
+    background-color: rgb(87, 87, 87);
+}
+
+
+
+/*animations*/
+
+
+/* Applying fade-in effect to the whole body */
+body {
+    animation: fadeIn 1.5s ease-in-out forwards; /* Keep the final state */
+}
+
+/* Applying slide-up effect to header and items */
+header {
+    animation: slideUp 1s ease-out forwards; /* Ensure it only runs once */
+}
+
+/* Only animate the .items once */
+.items {
+    animation: slideUp 1s ease-out forwards; /* Applying slide-up once */
+}
+
+/* Apply staggered animations to individual items */
+.item {
+    animation: slideUp 1s ease-out forwards;
+    animation-delay: 1s; /* Start animation after 1s */
+}
+
+/* Apply unique staggered delays to each item */
+.item:nth-child(1) {
+    animation-delay: 1s;
+}
+
+.item:nth-child(2) {
+    animation-delay: 1.2s;
+}
+
+.item:nth-child(3) {
+    animation-delay: 1.4s;
+}
+
+.item:nth-child(4) {
+    animation-delay: 1.6s;
+}
+
+.item:nth-child(5) {
+    animation-delay: 1.8s;
+}
+
+/* Other items can follow the same staggered pattern */
+
+/* Animation for fade-in */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Animation for slide-up effect */
+@keyframes slideUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Fade-in and slide-up animation for .divp1out */
+@keyframes divp1outAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Scale and slide-up animation for each .b (menu item) */
+
+
+/* Apply .divp1out animation */
+.divp1out {
+    animation: divp1outAnimation 1.5s ease-out forwards;
+}
+
