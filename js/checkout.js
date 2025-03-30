@@ -297,7 +297,7 @@ let dataCart=[
     },
     {
         id:72,
-        name:'blocorasaw mojito',
+        name:'Blue Cocktail mojito',
         price:4500
     },
     {
@@ -337,7 +337,7 @@ let dataCart=[
     },
     {
         id:95,
-        name:'blocokkel',
+        name:'Blue Cocktail',
         price:5000
     },
     {
