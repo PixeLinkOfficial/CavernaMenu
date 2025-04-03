@@ -180,16 +180,16 @@ butara.addEventListener('click', () => {
   document.querySelector('.k69').innerHTML="كوكتيل ريدبول"; 
   document.querySelector('.k70').innerHTML="ريدبول";
   
-  document.querySelector('.itemtitle9').innerHTML="مشروبات سبيشل";
+  document.querySelector('.itemtitle9').innerHTML="سبيشل درنك";
   document.querySelector('.item9').style.width='150px';
   document.querySelector('.itemtitle9').style.fontWeight=500;
   document.querySelector('.itemtitle9').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p11').innerHTML="مشروبات سبيشل";
-  document.querySelector('.k71').innerHTML="كوكتيل ازرق ";
-  document.querySelector('.k72').innerHTML="L.T.D";
-  document.querySelector('.k73').innerHTML="فولدمور ";
-  document.querySelector('.k74').innerHTML="ميك";
-  document.querySelector('.k75').innerHTML="جيراسيك";
+  document.querySelector('.div1p11').innerHTML="سبيشل درنك";
+  document.querySelector('.k71').innerHTML="كوكتيل ازرق سبيشل درنك";
+  document.querySelector('.k72').innerHTML="سبيشل درنك L.T.D ";
+  document.querySelector('.k73').innerHTML=" فولدمور سبيشل درنك";
+  document.querySelector('.k74').innerHTML="ميك سبيشل درنك";
+  document.querySelector('.k75').innerHTML="جيراسيك سبيشل درنك";
 
 
   document.querySelector('.itemtitle10').innerHTML="عصير طبيعي";
