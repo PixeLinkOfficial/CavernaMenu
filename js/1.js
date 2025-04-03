@@ -11,7 +11,7 @@ lbutton.addEventListener('click',(e)=>{
     document.querySelector('.rldiv').style.display="block";
     document.querySelector('.English').disabled=false;
     document.querySelector('.arabic').disabled=false;
-    document.querySelector('.kurdish').disabled=false;
+
 });
 
 body.addEventListener('click',()=>{
@@ -19,212 +19,7 @@ body.addEventListener('click',()=>{
     document.querySelector('.rldiv').style.display="none";
     document.querySelector('.English').disabled=true;
     document.querySelector('.arabic').disabled=true;
-    document.querySelector('.kurdish').disabled=true;
-});
 
-let butkur =document.querySelector('.kurdish');
-
-butkur.addEventListener('click',()=>{
-  const elements = document.querySelectorAll('.bmm2');
-  elements.forEach(element => {
-    element.style.textAlign = 'right';  // Align text to the right
-    element.style.alignItems = 'end';   // Align items to the end (works if flex container)
-    
-    // Check if there is a button inside the .bmm2 element
-    const button = element.querySelector('button');
-    if (button) {
-      button.style.marginRight = '7%';  // Set margin for the button inside the .bmm2 element
-    }
-  });
-  const element2 = document.querySelectorAll('.pburg');
-  element2.forEach(element => {
-    element.style.marginRight='15px';   // Align items to the end (works if flex container)
-  });
-  const element3 = document.querySelectorAll('.ppriceb');
-  element3.forEach(element => {
-    element.style.marginRight='15px';   // Align items to the end (works if flex container)
-  });
-  
-  document.querySelector('body').style.fontFamily= "'Noto Sans Arabic', serif";
-  document.querySelector('body').style.fontWeight= 600;
-  document.querySelector('.div1p').style.fontWeight=700;
-  document.querySelector('.itemtitle').style.fontWeight=500;
-  document.querySelector('.itemtitle').style.fontFamily="'Roboto', serif";
-
-  localStorage.setItem("lan","kur");
-  document.querySelector('.p1').innerHTML="كوردى";
-  document.querySelector('.div1p').style.textAlign='right';
-  document.querySelector('.div1p2').style.textAlign='right';
-  document.querySelector('.div1p4').style.textAlign='right';
-  document.querySelector('.div1p5').style.textAlign='right';
-  document.querySelector('.div1p6').style.textAlign='right';
-  document.querySelector('.div1p7').style.textAlign='right';
-  document.querySelector('.div1p8').style.textAlign='right';
-  document.querySelector('.div1p10').style.textAlign='right';
-  document.querySelector('.div1p11').style.textAlign='right';
-  document.querySelector('.div1p18').style.textAlign='right';
-  document.querySelector('.div1p19').style.textAlign='right';
-
-
-  document.querySelector('.itemtitle1').innerHTML="خۆڕاوی گەرم";
-  document.querySelector('.div1p1').innerHTML="خۆڕاوی گەرم";
-  document.querySelector('.pburg5').innerHTML="کاپوچینو";
-  document.querySelector('.pburg7').innerHTML="هۆت چۆکڵێت";
-  document.querySelector('.pburg8').innerHTML="قەهوەی تورکیا";
-  document.querySelector('.pburg2').innerHTML="ئێسپریسۆ";
-  document.querySelector('.pburg3').innerHTML="ئێسپریسۆ دابل";
-  document.querySelector('.pburg16').innerHTML="لینکۆ";
-  document.querySelector('.pburg1').innerHTML="ئاڤۆکات";
-  document.querySelector('.pburg10').innerHTML="ماکیاتو";
-  document.querySelector('.pburg4').innerHTML="ئەمریکیانو";
-  document.querySelector('.pburg6').innerHTML="کۆن پانە";
-  document.querySelector('.pburg9').innerHTML="سەحلەب";
-  document.querySelector('.pburg11').innerHTML="رۆماین";
-  document.querySelector('.pburg12').innerHTML="فلات وایت";
-  document.querySelector('.pburg13').innerHTML="کارامێل ماکیاتو";
-  document.querySelector('.pburg14').innerHTML="شیر";
-  document.querySelector('.pburg15').innerHTML="ماکا";
-  document.querySelector('.pburg17').innerHTML="ماکیای سپی";
-  document.querySelector('.pburgg1').innerHTML="سینامۆن دولس";
-  document.querySelector('.pburgg2').innerHTML="لاتی";
-  document.querySelector('.pburg18').innerHTML="تامێ لاتی";
-  document.querySelector('.k136').innerHTML="كافيرنا كوفي";
-  document.querySelector('.k137').innerHTML="ماكا";
-  
-
-  document.querySelector('.itemtitle2').innerHTML="قەهوەی سارد";
-  document.querySelector('.itemtitle2').style.fontWeight=500;
-  document.querySelector('.itemtitle2').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p2').innerHTML="قەهوەی سارد";
-  document.querySelector('.pburg22').innerHTML="لاتی سارد";
-  document.querySelector('.pburg23').innerHTML="ئایس مۆکا";
-  document.querySelector('.pburg24').innerHTML="لاتی سارد بە تام";
-  document.querySelector('.k1').innerHTML="ئایسکریم";
-  document.querySelector('.k2').innerHTML="ئیسپانی";
-  document.querySelector('.k3').innerHTML="فستەق";
-  document.querySelector('.k4').innerHTML="كافيرنا موكا";
-  document.querySelector('.k5').innerHTML="ايس كاباجينو";
-
-
- 
-  
-
-  document.querySelector('.itemtitle3').innerHTML="قەهوە فرابێ";
-  document.querySelector('.item3').style.width='120px';
-  document.querySelector('.itemtitle3').style.fontWeight=500;
-  document.querySelector('.itemtitle3').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p4').innerHTML="قەهوە فرابێ";
-  document.querySelector('.k13').innerHTML="فانیلا فرابی";
-document.querySelector('.k14').innerHTML="کارامێل فرابی";
-document.querySelector('.k15').innerHTML="دارک فرابی";
-document.querySelector('.k16').innerHTML="نۆتیلا فرابی";
-document.querySelector('.k17').innerHTML="فرابی فڕەوڵە";
-document.querySelector('.k18').innerHTML="ئێسپریسۆ فرابی";
-
-  
-
-
-  document.querySelector('.itemtitle4').innerHTML="مێلكشیک";
-  document.querySelector('.item4').style.width='100px';
-  document.querySelector('.itemtitle4').style.fontWeight=500;
-  document.querySelector('.itemtitle4').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p5').innerHTML="مێلكشیک";
-  document.querySelector('.k24').innerHTML="فراوەلە";
-  document.querySelector('.k25').innerHTML="مۆز";
-  document.querySelector('.k26').innerHTML="کرامل";
-  document.querySelector('.k27').innerHTML="كافيلرنا ميلكشيك";
-  document.querySelector('.k28').innerHTML="نوتیلا";
-  document.querySelector('.k29').innerHTML="لۆتس";
-  document.querySelector('.k30').innerHTML="ئەریو";
- 
-  
-
-  document.querySelector('.itemtitle5').innerHTML="سموثى";
-  document.querySelector('.item5').style.width='90px';
-  document.querySelector('.itemtitle5').style.fontWeight=500;
-  document.querySelector('.itemtitle5').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p6').innerHTML="سموثى";
-  document.querySelector('.k32').innerHTML="فراوەلە";
-  document.querySelector('.k33').innerHTML="مانجو";
-  document.querySelector('.k34').innerHTML="ئاناناس";
-  document.querySelector('.k35').innerHTML="بلوبيرى";
-
-
-  document.querySelector('.itemtitle6').innerHTML="موهیتۆ";
-  document.querySelector('.item6').style.width='90px';
-  document.querySelector('.itemtitle6').style.fontWeight=500;
-  document.querySelector('.itemtitle6').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p7').innerHTML="موهیتۆ";
-  document.querySelector('.k42').innerHTML="فڕەوڵە";
-  document.querySelector('.k43').innerHTML="بلووبێری";
-  document.querySelector('.k44').innerHTML="مانگۆ";
-  document.querySelector('.k45').innerHTML="باشن مۆهیتۆ";
-  document.querySelector('.k46').innerHTML="کەرز";
-  document.querySelector('.k47').innerHTML="کریناداین";
-  document.querySelector('.k48').innerHTML="كوكتيل شين موهيتو";
-  document.querySelector('.k49').innerHTML="هنار";
-  document.querySelector('.k50').innerHTML="سپی‌شاڵ مۆهیتۆ";
-  
-
-
-
-  document.querySelector('.itemtitle7').innerHTML="جا طازى";
-  document.querySelector('.item7').style.width='100px';
-  document.querySelector('.itemtitle7').style.fontWeight=500;
-  document.querySelector('.itemtitle7').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p8').innerHTML="جا طازى";
-  document.querySelector('.k52').innerHTML="لیمۆن";
-  document.querySelector('.k53').innerHTML="خوخ";
-
-
-  document.querySelector('.itemtitle8').innerHTML="کۆکتێل ریدبول";
-  document.querySelector('.item8').style.width='130px';
-  document.querySelector('.itemtitle8').style.fontWeight=500;
-  document.querySelector('.itemtitle8').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p10').innerHTML="کۆکتێل ریدبول";
-  document.querySelector('.k68').innerHTML="ريدبول ميكس"; 
-  document.querySelector('.k69').innerHTML="كوكتيل ريدبول"; 
-  document.querySelector('.k70').innerHTML="ريدبول";
-  
-  
-  
-  document.querySelector('.itemtitle9').innerHTML="فخوارن سبيشل";
-  document.querySelector('.item9').style.width='150px';
-  document.querySelector('.itemtitle9').style.fontWeight=500;
-  document.querySelector('.itemtitle9').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p11').innerHTML="فخوارن سبيشل";
-  document.querySelector('.k71').innerHTML="كوكتيل شين";
-  document.querySelector('.k72').innerHTML="L.T.D";
-  document.querySelector('.k73').innerHTML="فولديمور وايت";
-  document.querySelector('.k74').innerHTML="ميك";
-  document.querySelector('.k75').innerHTML="جيرسيك";
-
-
-
-  document.querySelector('.itemtitle10').innerHTML="فه خوارن  طبيعي";
-  document.querySelector('.item10').style.width='135px';
-  document.querySelector('.itemtitle10').style.fontWeight=500;
-  document.querySelector('.itemtitle10').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p18').innerHTML="فه خوارن  طبيعي";
-  document.querySelector('.k122').innerHTML="پرتەقاڵ";
-  document.querySelector('.k123').innerHTML="لیمۆن پرتەقاڵ";
-  document.querySelector('.k124').innerHTML="ئێسپریسۆ پرتەقاڵ";
-  document.querySelector('.k125').innerHTML="هنار";
-  document.querySelector('.k126').innerHTML="فڕەوڵە";  
-
-  document.querySelector('.itemtitle11').innerHTML="چا";
-  document.querySelector('.item11').style.width='110px';
-  document.querySelector('.itemtitle11').style.fontWeight=500;
-  document.querySelector('.itemtitle11').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p19').innerHTML="چا";
-  document.querySelector('.k128').innerHTML="چا";
-  document.querySelector('.k129').innerHTML="چا  كه سك";
-  document.querySelector('.k135').innerHTML="كاراك چا";
-
-  document.querySelector('.itemtitle12').innerHTML="لسەر کاڤيرنا";
-  document.querySelector('.item12').style.width='120px';
-  document.querySelector('.itemtitle12').style.fontWeight=500;
-  document.querySelector('.itemtitle12').style.fontFamily="'Roboto', serif";
 });
 
 let butara = document.querySelector('.arabic');
@@ -276,27 +71,27 @@ butara.addEventListener('click', () => {
   document.querySelector('.itemtitle1').innerHTML="المشروبات الساخنة";
   document.querySelector('.div1p1').innerHTML="المشروبات الساخنة";
   document.querySelector('.pburg5').innerHTML="كباشينو";
-  document.querySelector('.pburg7').innerHTML="هوت شكولا";
+  document.querySelector('.pburg7').innerHTML="هوت شوكليت";
   document.querySelector('.pburg8').innerHTML="قهوه تركية";
   document.querySelector('.pburg2').innerHTML="اسبريسو";
   document.querySelector('.pburg3').innerHTML="اسبريسو دبل";
-  document.querySelector('.pburg16').innerHTML="لنكو";
-  document.querySelector('.pburg1').innerHTML="افوكيت";
-  document.querySelector('.pburg10').innerHTML="ماجياتو";
+  document.querySelector('.pburg16').innerHTML="لونكو";
+  document.querySelector('.pburg1').innerHTML="اسبريسو افاكادو";
+  document.querySelector('.pburg10').innerHTML="اسبريسو ماجياتو ";
   document.querySelector('.pburg4').innerHTML="امريكانو";
-  document.querySelector('.pburg6').innerHTML=" كون بانا";
+  document.querySelector('.pburg6').innerHTML="اسبريسو كون بانا";
   document.querySelector('.pburg9').innerHTML="سحلب";
-  document.querySelector('.pburg11').innerHTML="روماين";
+  document.querySelector('.pburg11').innerHTML="يسبريسو روامانو";
   document.querySelector('.pburg12').innerHTML="فلات وايت";
   document.querySelector('.pburg13').innerHTML="كراميل موجياتو";
   document.querySelector('.pburg14').innerHTML="حليب";
-  document.querySelector('.pburg15').innerHTML=" ماجا";
-  document.querySelector('.pburg17').innerHTML="ماجا بيضاء";
-  document.querySelector('.pburgg1').innerHTML="سينامون دولس";
+  document.querySelector('.pburg15').innerHTML=" لوكا";
+  document.querySelector('.pburg17').innerHTML="وايت موكا ";
+  document.querySelector('.pburgg1').innerHTML="سينامون دولجي";
   document.querySelector('.pburgg2').innerHTML=" لاتي";
   document.querySelector('.pburg18').innerHTML="طعم لاتي";
   document.querySelector('.k136').innerHTML="كافيرنا كوفي";
-  document.querySelector('.k137').innerHTML="ماكا";
+  document.querySelector('.k137').innerHTML="ماجا";
 
   document.querySelector('.itemtitle2').innerHTML="قهوه باردا";
   document.querySelector('.itemtitle2').style.fontWeight=500;
@@ -305,9 +100,9 @@ butara.addEventListener('click', () => {
   document.querySelector('.pburg22').innerHTML="لاتي بارد";
   document.querySelector('.pburg23').innerHTML="ايس موكا";
   document.querySelector('.pburg24').innerHTML="لاتي بارد طعم";
-  document.querySelector('.k1').innerHTML="ايسكريم";
+  document.querySelector('.k1').innerHTML="ايس اميريكانو";
   document.querySelector('.k2').innerHTML="اسباني ";
-  document.querySelector('.k3').innerHTML="فستق";
+  document.querySelector('.k3').innerHTML="ايس لاتي بستاشو";
   document.querySelector('.k4').innerHTML="كافيرنا موكا";
   document.querySelector('.k5').innerHTML="ايس كاباجينو";
 
@@ -322,20 +117,20 @@ butara.addEventListener('click', () => {
   document.querySelector('.k15').innerHTML="دارك فرابي";
   document.querySelector('.k16').innerHTML="نوتيلا فرابي";
   document.querySelector('.k17').innerHTML="فرابي فراوله";
-  document.querySelector('.k18').innerHTML="يسبيسو فرابي";
+  document.querySelector('.k18').innerHTML="يسبريسو فرابي";
 
   document.querySelector('.itemtitle4').innerHTML="ميلكشيك";
   document.querySelector('.item4').style.width='100px';
   document.querySelector('.itemtitle4').style.fontWeight=500;
   document.querySelector('.itemtitle4').style.fontFamily="'Roboto', serif";
   document.querySelector('.div1p5').innerHTML="ميلكشيك";
-  document.querySelector('.k24').innerHTML="فراولة";
-  document.querySelector('.k25').innerHTML="موز";
-  document.querySelector('.k26').innerHTML="كراميل";
+  document.querySelector('.k24').innerHTML="ميلكشيك فراولة";
+  document.querySelector('.k25').innerHTML="ميلكشيك موز";
+  document.querySelector('.k26').innerHTML="ميلكشيك كراميل";
   document.querySelector('.k27').innerHTML="كافيلرنا ميلكشيك";
-  document.querySelector('.k28').innerHTML="نوتيلا";
-  document.querySelector('.k29').innerHTML="لوتس";
-  document.querySelector('.k30').innerHTML="اوريو";
+  document.querySelector('.k28').innerHTML="ميلكشيك نوتيلا";
+  document.querySelector('.k29').innerHTML="ميلكشيك لوتس";
+  document.querySelector('.k30').innerHTML="ميلكشيك اوريو";
   
 
   document.querySelector('.itemtitle5').innerHTML="سموثي";
@@ -343,10 +138,10 @@ butara.addEventListener('click', () => {
   document.querySelector('.itemtitle5').style.fontWeight=500;
   document.querySelector('.itemtitle5').style.fontFamily="'Roboto', serif";
   document.querySelector('.div1p6').innerHTML="سموثي";
-  document.querySelector('.k32').innerHTML="فرولة";
-  document.querySelector('.k33').innerHTML="مانجو";
-  document.querySelector('.k34').innerHTML="اناناس";
-  document.querySelector('.k35').innerHTML=" بلوبيري ";
+  document.querySelector('.k32').innerHTML="سموثي فرولة";
+  document.querySelector('.k33').innerHTML="سموثي مانجو";
+  document.querySelector('.k34').innerHTML="سموثي اناناس";
+  document.querySelector('.k35').innerHTML="سموثي بلوبيري ";
  
 
   document.querySelector('.itemtitle6').innerHTML="موهيتو";
@@ -354,23 +149,23 @@ butara.addEventListener('click', () => {
   document.querySelector('.itemtitle6').style.fontWeight=500;
   document.querySelector('.itemtitle6').style.fontFamily="'Roboto', serif";
   document.querySelector('.div1p7').innerHTML="موهيتو";
-  document.querySelector('.k42').innerHTML="فراولة";
-  document.querySelector('.k43').innerHTML=" بلوبيري";
-  document.querySelector('.k44').innerHTML="مانجو";
+  document.querySelector('.k42').innerHTML="موهيتو فراولة";
+  document.querySelector('.k43').innerHTML="موهيتو بلوبيري";
+  document.querySelector('.k44').innerHTML="موهيتو مانجو";
   document.querySelector('.k45').innerHTML="باشون موهيتو";
-  document.querySelector('.k46').innerHTML="كرز";
-  document.querySelector('.k47').innerHTML="كريناداين";
-  document.querySelector('.k48').innerHTML="كوكتيل ازرق موهيتو";
-  document.querySelector('.k49').innerHTML="رمان";
+  document.querySelector('.k46').innerHTML="موهيتو كرز";
+  document.querySelector('.k47').innerHTML="موهيتو كريناداين";
+  document.querySelector('.k48').innerHTML="موهيتو كوكتيل ازرق موهيتو";
+  document.querySelector('.k49').innerHTML="موهيتو رمان";
   document.querySelector('.k50').innerHTML="سبيشال موهيتو";
 
-  document.querySelector('.itemtitle7').innerHTML="شاي بارد";
+  document.querySelector('.itemtitle7').innerHTML="ايس تي";
   document.querySelector('.item7').style.width='100px';
   document.querySelector('.itemtitle7').style.fontWeight=500;
   document.querySelector('.itemtitle7').style.fontFamily="'Roboto', serif";
-  document.querySelector('.div1p8').innerHTML="شاي بارد";
-  document.querySelector('.k52').innerHTML="ليمون";
-  document.querySelector('.k53').innerHTML="خوخ";
+  document.querySelector('.div1p8').innerHTML="ايس تي";
+  document.querySelector('.k52').innerHTML="ايس تي ليمون";
+  document.querySelector('.k53').innerHTML="ايس تي خوخ";
 
   document.querySelector('.itemtitle8').innerHTML="كوكتيل ريدبول";
   document.querySelector('.item8').style.width='140px';
@@ -388,9 +183,9 @@ butara.addEventListener('click', () => {
   document.querySelector('.div1p11').innerHTML="مشروبات سبيشل";
   document.querySelector('.k71').innerHTML="كوكتيل ازرق ";
   document.querySelector('.k72').innerHTML="L.T.D";
-  document.querySelector('.k73').innerHTML="فولديمور وايت";
+  document.querySelector('.k73').innerHTML="فولدمور ";
   document.querySelector('.k74').innerHTML="ميك";
-  document.querySelector('.k75').innerHTML="جيرسيك";
+  document.querySelector('.k75').innerHTML="جيراسيك";
 
 
   document.querySelector('.itemtitle10').innerHTML="عصير طبيعي";
@@ -403,6 +198,10 @@ butara.addEventListener('click', () => {
   document.querySelector('.k124').innerHTML="يسبريسو برتقال";
   document.querySelector('.k125').innerHTML="رمان";
   document.querySelector('.k126').innerHTML="فراوله";
+  document.querySelector('.k999').innerHTML="افاكادو";
+  document.querySelector('.k998').innerHTML="مانجو";
+  document.querySelector('.k997').innerHTML="كوكتيل";
+  document.querySelector('.k996').innerHTML="حليب و موز";
 
 
   document.querySelector('.itemtitle11').innerHTML="شاي";
@@ -414,7 +213,47 @@ butara.addEventListener('click', () => {
   document.querySelector('.k129').innerHTML="شاي اخضر";
   document.querySelector('.k135').innerHTML="كاراك شاي";
 
-  document.querySelector('.itemtitle12').innerHTML="عن كافيرنا";
+  document.querySelector('.itemtitle12').innerHTML="كريب";
+  document.querySelector('.item12').style.width='110px';
+  document.querySelector('.itemtitle12').style.fontWeight=500;
+  document.querySelector('.itemtitle12').style.fontFamily="'Roboto', serif";
+  document.querySelector('.div1p20').innerHTML="كريب";
+  document.querySelector('.m100').innerHTML="كريب نوتيلا";
+  document.querySelector('.m101').innerHTML="كريب كندر";
+  document.querySelector('.m102').innerHTML="كريب فستق";
+  document.querySelector('.m103').innerHTML="كريب لوتس";
+
+  document.querySelector('.itemtitle13').innerHTML="ميني بانكيك";
+  document.querySelector('.item13').style.width='150px';
+  document.querySelector('.itemtitle13').style.fontWeight=500;
+  document.querySelector('.itemtitle13').style.fontFamily="'Roboto', serif";
+  document.querySelector('.div1p21').innerHTML="ميني بانكيك";
+  document.querySelector('.m200').innerHTML="ميني بانكيك نوتيلا";
+  document.querySelector('.m201').innerHTML="ميني بانكيك كندر";
+  document.querySelector('.m202').innerHTML="ميني بانكيك فستق";
+  document.querySelector('.m203').innerHTML="ميني بانكيك لوتس";
+
+  document.querySelector('.itemtitle14').innerHTML="وافل";
+  document.querySelector('.item14').style.width='110px';
+  document.querySelector('.itemtitle14').style.fontWeight=500;
+  document.querySelector('.itemtitle14').style.fontFamily="'Roboto', serif";
+  document.querySelector('.div1p22').innerHTML="وافل";
+  document.querySelector('.m300').innerHTML=" وافل نوتيلا";
+  document.querySelector('.m301').innerHTML=" وافل كندر";
+  document.querySelector('.m302').innerHTML=" وافل فستق";
+  document.querySelector('.m303').innerHTML=" وافل لوتس";
+
+  document.querySelector('.itemtitle15').innerHTML="بانكيك";
+  document.querySelector('.item15').style.width='120px';
+  document.querySelector('.itemtitle15').style.fontWeight=500;
+  document.querySelector('.itemtitle15').style.fontFamily="'Roboto', serif";
+  document.querySelector('.div1p23').innerHTML="بانكيك";
+  document.querySelector('.m400').innerHTML=" بانكيك نوتيلا";
+  document.querySelector('.m401').innerHTML=" بانكيك كندر";
+  document.querySelector('.m402').innerHTML=" بانكيك فستق";
+  document.querySelector('.m403').innerHTML=" بانكيك لوتس";
+
+  document.querySelector('.itemtitle16').innerHTML="عن كافيرنا";
   document.querySelector('.item12').style.width='115px';
   document.querySelector('.itemtitle12').style.fontWeight=500;
   document.querySelector('.itemtitle12').style.fontFamily="'Roboto', serif";
@@ -511,7 +350,11 @@ document.addEventListener('DOMContentLoaded', () => {
     { button: '.item9', target: 'sc9' },
     { button: '.item10', target: 'sc10' },
     { button: '.item11', target: 'sc11' },
-    { button: '.item12', target: 'sc12' }
+    { button: '.item12', target: 'sc12' },
+    { button: '.item13', target: 'sc13' },
+    { button: '.item14', target: 'sc14' },
+    { button: '.item15', target: 'sc15' },
+    { button: '.item16', target: 'sc16' }
   ];
 
   scrollButtons.forEach(item => {
@@ -647,7 +490,7 @@ htlan();
 //end of 1
 // Get references to the elements
 // Loop through all pairs of vertical and horizontal elements
-for (let i = 1; i <= 21; i++) {
+for (let i = 1; i <= 16; i++) {
   const verticalElement = document.querySelector(`.ver${i}`);  // Select the vertical element (ver1, ver2, ..., ver9)
   const horizontalContainer = document.querySelector('.items');  // The container for horizontal scrolling
   const horizontalTarget = document.querySelector(`.hor${i}`);  // Select the horizontal target (hor1, hor2, ..., hor9)
