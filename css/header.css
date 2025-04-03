@@ -135,6 +135,18 @@ header{
     width: 100px;
 }
 .item12{
+    width: 110px;
+}
+.item13{
+    width: 150px;
+}
+.item14{
+    width: 115px;
+}
+.item15{
+    width: 110px;
+}
+.item16{
     width: 175px;
 }
 
@@ -185,7 +197,7 @@ header{
     display: none;
     background-color: black;
     position: absolute;
-    bottom: -45px;
+    bottom: -20px;
     top: 37px;
     width: 75px;
     right: 27px;
