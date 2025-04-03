@@ -421,6 +421,106 @@ let dataCart=[
         name:'latte hot drink',
         price:4500
     },
+    {
+        id:999,
+        name:'Avacado',
+        price:7000
+    },
+    {
+        id:998,
+        name:'Mango fresh juice',
+        price:6000
+    },
+    {
+        id:997,
+        name:'cocktail fresh juice',
+        price:5000
+    },
+    {
+        id:996,
+        name:'Banana and Milk',
+        price:4000
+    },
+    {
+        id:1000,
+        name:'Nutella Crepe',
+        price:5500
+    },
+    {
+        id:1001,
+        name:'Kinder Crepe',
+        price:6000
+    },
+    {
+        id:1002,
+        name:'Pistacho Crepe',
+        price:7000
+    },
+    {
+        id:1003,
+        name:'Lotus Crepe',
+        price:4500
+    },
+    {
+        id:2000,
+        name:'Nutella mini pancake',
+        price:5500
+    },
+    {
+        id:2001,
+        name:'Kinder mini pancake',
+        price:6000
+    },
+    {
+        id:2002,
+        name:'Pistacho mini pancake',
+        price:7000
+    },
+    {
+        id:2003,
+        name:'Lotus mini pancake',
+        price:4500
+    },
+    {
+        id:3000,
+        name:'Nutella Waffle',
+        price:5500
+    },
+    {
+        id:3001,
+        name:'Kinder Waffle',
+        price:6000
+    },
+    {
+        id:3002,
+        name:'Pistacho Waffle',
+        price:7000
+    },
+    {
+        id:3003,
+        name:'Lotus Waffle',
+        price:4500
+    },
+    {
+        id:4000,
+        name:'Nutella Pancake',
+        price:5500
+    },
+    {
+        id:4001,
+        name:'Kinder Pancake',
+        price:6000
+    },
+    {
+        id:4002,
+        name:'Pistacho Pancake',
+        price:7000
+    },
+    {
+        id:4003,
+        name:'Lotus Pancake',
+        price:4500
+    }
     
   ];
   //
