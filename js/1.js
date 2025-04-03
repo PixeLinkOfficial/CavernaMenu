@@ -66,6 +66,10 @@ butara.addEventListener('click', () => {
   document.querySelector('.div1p11').style.textAlign='right';
   document.querySelector('.div1p18').style.textAlign='right';
   document.querySelector('.div1p19').style.textAlign='right';
+  document.querySelector('.div1p20').style.textAlign='right';
+  document.querySelector('.div1p21').style.textAlign='right';
+  document.querySelector('.div1p22').style.textAlign='right';
+  document.querySelector('.div1p23').style.textAlign='right';
 
 
   document.querySelector('.itemtitle1').innerHTML="المشروبات الساخنة";
