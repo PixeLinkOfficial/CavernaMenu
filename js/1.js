@@ -178,7 +178,7 @@ butara.addEventListener('click', () => {
   document.querySelector('.itemtitle8').style.fontFamily="'Roboto', serif";
   document.querySelector('.div1p10').innerHTML="كوكتيل ريدبول";
   document.querySelector('.k68').innerHTML="ريدبول ميكس"; 
-  document.querySelector('.k69').innerHTML="كوكتيل ريدبول"; 
+  document.querySelector('.k69').innerHTML="مكسيك ريدبول"; 
   document.querySelector('.k70').innerHTML="ريدبول";
   
   document.querySelector('.itemtitle9').innerHTML="سبيشل درنك";
