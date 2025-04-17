@@ -104,11 +104,6 @@ let dataCart=[
         price:5000
     },
     {
-        id:24,
-        name: 'Ice latte طعم',
-        price:5000
-    },
-    {
         id:25,
         name: 'Icecream',
         price:4500
