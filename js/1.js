@@ -103,7 +103,6 @@ butara.addEventListener('click', () => {
   document.querySelector('.div1p2').innerHTML="قهوه باردا";
   document.querySelector('.pburg22').innerHTML="لاتي بارد";
   document.querySelector('.pburg23').innerHTML="ايس موكا";
-  document.querySelector('.pburg24').innerHTML="لاتي بارد طعم";
   document.querySelector('.k1').innerHTML="ايس اميريكانو";
   document.querySelector('.k2').innerHTML="اسباني ";
   document.querySelector('.k3').innerHTML="ايس لاتي بستاشو";
@@ -146,6 +145,7 @@ butara.addEventListener('click', () => {
   document.querySelector('.k33').innerHTML="سموثي مانجو";
   document.querySelector('.k34').innerHTML="سموثي اناناس";
   document.querySelector('.k35').innerHTML="سموثي بلوبيري ";
+  document.querySelector('.new2').innerHTML="سموثي كيوي و تفاح احضر ";
  
 
   document.querySelector('.itemtitle6').innerHTML="موهيتو";
@@ -162,6 +162,7 @@ butara.addEventListener('click', () => {
   document.querySelector('.k48').innerHTML="موهيتو كوكتيل ازرق موهيتو";
   document.querySelector('.k49').innerHTML="موهيتو رمان";
   document.querySelector('.k50').innerHTML="سبيشال موهيتو";
+  document.querySelector('.new1').innerHTML="اناناس موهيتو";
 
   document.querySelector('.itemtitle7').innerHTML="ايس تي";
   document.querySelector('.item7').style.width='100px';
@@ -256,6 +257,19 @@ butara.addEventListener('click', () => {
   document.querySelector('.m401').innerHTML=" بانكيك كندر";
   document.querySelector('.m402').innerHTML=" بانكيك فستق";
   document.querySelector('.m403').innerHTML=" بانكيك لوتس";
+
+  document.querySelector('.new3').innerHTML="  عصير ليمون ونعناع";
+  document.querySelector('.new4').innerHTML="ليمون شاي  ";
+  document.querySelector('.new5').innerHTML=" اناناس ازرق  ";
+  document.querySelector('.new6').innerHTML="فروله و موز";
+  document.querySelector('.new7').innerHTML="بينا كولادا";
+  document.querySelector('.new8').innerHTML="وافل نوتيلا و فستق";
+  document.querySelector('.new9').innerHTML="كزوان";
+  document.querySelector('.new21').innerHTML="ايس لاتي فانيلا";
+  document.querySelector('.new22').innerHTML="ايس لاتي كراميل";
+  document.querySelector('.new23').innerHTML="كيوي موهيتو";
+  document.querySelector('.new24').innerHTML="موهيتو تفاح اخضر";
+  document.querySelector('.new25').innerHTML="ريدبيري";
 
   document.querySelector('.itemtitle16').innerHTML="عن كافيرنا";
   document.querySelector('.item12').style.width='115px';
