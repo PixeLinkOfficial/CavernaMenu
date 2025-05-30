@@ -102,16 +102,16 @@ header{
     color: white;
 }
 .item1{
-    width: 165px;
+    width: 175px;
 }
 .item2{
-    width: 115px;
+    width: 145px;
 }
 .item3{
     width: 163px;
 }
 .item4{
-    width: 150px;
+    width: 170px;
 }
 .item5{
     width: 140px;
@@ -123,30 +123,39 @@ header{
     width: 115px;
 }
 .item8{
-    width: 190px;
+    width: 120px;
 }
 .item9{
-    width: 175px;
+    width: 195px;
 }
 .item10{
-    width: 140px;
+    width: 180px;
 }
 .item11{
-    width: 100px;
+    width: 140px;
 }
 .item12{
-    width: 110px;
+    width: 100px;
 }
 .item13{
-    width: 150px;
+    width: 120px;
 }
 .item14{
-    width: 115px;
+    width: 165px;
 }
 .item15{
     width: 110px;
 }
 .item16{
+    width: 135px;
+}
+.item17{
+    width: 135px;
+}
+.item18{
+    width: 135px;
+}
+.item19{
     width: 175px;
 }
 
