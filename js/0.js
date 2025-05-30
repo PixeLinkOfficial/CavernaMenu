@@ -37,6 +37,9 @@ butara.addEventListener('click',()=>{
     document.querySelector('.p24').innerHTML="وافل";
     document.querySelector('.p25').innerHTML="بانكيك";
    localStorage.setItem("lan","arb");
+   document.querySelector('.pnew1').innerHTML="ايس ماتشا";
+   document.querySelector('.pnew2').innerHTML="حلويات";
+   document.querySelector('.pnew3').innerHTML="نركيلا";
 });
 
 let buteng =document.querySelector('.English');
@@ -50,7 +53,7 @@ buteng.addEventListener('click',()=>{
 
 document.addEventListener('DOMContentLoaded', () => {
     // Loop through items ii1 to ii16
-    for (let i = 1; i <= 16; i++) {
+    for (let i = 1; i <= 19; i++) {
       const button = document.querySelector(`.ii${i}`);  // Select buttons like .ii1, .ii2, etc.
       if (button) {
         button.addEventListener('click', () => {
